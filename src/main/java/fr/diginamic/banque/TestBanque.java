@@ -8,7 +8,9 @@ public class TestBanque {
 	{
 		// TODO Auto-generated method stub
 		Compte cp1 = new Compte(20,10);
-		System.out.println(cp1);
+		System.out.println(cp1.toString());
 	}
+	
+
 
 }
