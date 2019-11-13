@@ -17,9 +17,9 @@ public class AdressePostale {
 	
 	
 	
-	public String affichage(AdressePostale a)
+	public String affichage()
 	{
-		return "le numero de rue :"+a.numeroDeRue+"\nlibelle :"+a.libelle+ "\ncode postal :"+a.codePostal+"\nville : "+a.ville;
+		return "le numero de rue :"+this.numeroDeRue+"\nlibelle :"+this.libelle+ "\ncode postal :"+this.codePostal+"\nville : "+this.ville;
 	}
 
 }
