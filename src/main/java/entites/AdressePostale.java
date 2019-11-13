@@ -15,6 +15,13 @@ public class AdressePostale {
 		this.ville=vil;
 	}
 	
+	public void setAdress(int num, String lib, int codeP, String vil)
+	{
+		this.numeroDeRue=num;
+		this.libelle=lib;
+		this.codePostal=codeP;
+		this.ville=vil;
+	}
 	
 	
 	public String affichage()

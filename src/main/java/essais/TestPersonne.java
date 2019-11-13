@@ -12,10 +12,14 @@ public class TestPersonne {
 		System.out.println(a.affichage());
 		
 		System.out.println("");
-		
-		Personne p2= new Personne("Moule","Agauffre",a);
-		System.out.println(p2.affichage());
+		a.setAdress(10, "rue poutin", 37000, "renne");
+		System.out.println(p1.GetNom());
+		System.out.println(p1.GetPrenom());
 		System.out.println(a.affichage());
+		
+		/*Personne p2= new Personne("Moule","Agauffre",a);
+		System.out.println(p2.affichage());
+		System.out.println(a.affichage());*/
 	
 	}
 
