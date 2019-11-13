@@ -12,9 +12,11 @@ public class TestAdressePostale {
 		a.codePostal=34000;
 		a.ville="renne";*/
 		
-		System.out.println(a.affichage());
+		System.out.println(a.affichage(a));
 		
-		//AdressePostale b= new AdressePostale();
+		AdressePostale b= new AdressePostale(10,"avenu coucou",76620,"le havre");
+		
+		System.out.println(b.affichage(b));
 		
 		
 	}
