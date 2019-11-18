@@ -13,6 +13,12 @@ public class Pays {
 		this.PIBhab=PIBhab;
 	}
 	
+	public Pays(int nbHab, double PIBhab) 
+	{
+		this.nbHab=nbHab;
+		this.PIBhab=PIBhab;
+	}
+	
 	public String getNom()
 	{
 		return this.nom;
