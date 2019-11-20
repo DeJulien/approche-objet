@@ -16,7 +16,7 @@ public class Compte {
 	public String toString()
 	{
 
-		return "numero de solde : "+this.numCompte+"\nsolde de compte initial : "+soldeInitial+"\nvous avez effectué :"+compteur+" operation sur se compte"
+		return "numero de solde : "+this.numCompte+"\nsolde de compte initial : "+soldeInitial+"\nvous avez effectuÃ© :"+compteur+" operation sur se compte"
 				;
 	}
 	
@@ -64,6 +64,13 @@ public class Compte {
 	{
 		return 0;
 	}
-	
+	public boolean equals(Object obj)
+	{
+		if(!(obj instanceof Compte))
+			return false;
+		
+		Compte temps=(Compte)obj;
+		return this.numCompte==temps.numCompte;
+	}
 
 }
