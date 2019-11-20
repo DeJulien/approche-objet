@@ -11,7 +11,7 @@ public class TestBanque {
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		Compte cp1 = new Compte(4,300);
+		/*Compte cp1 = new Compte(4,300);
 		
 		Credit op1= new Credit("",50);
 		Credit op2= new Credit("",50);
@@ -28,7 +28,7 @@ public class TestBanque {
 		
 		
 		System.out.println(cp1.toString());
-		System.out.println("solde total :"+cp1.getSolde());
+		System.out.println("solde total :"+cp1.getSolde());*/
 		
 		/*Compte cp2 = new CompteTaux(200,10,2);
 		
@@ -47,5 +47,12 @@ public class TestBanque {
 			System.out.println("");
 		}
 		System.out.println("le solde total est de :"+totalSolde);*/
+		
+		Compte compte1 = new Compte(4,300);
+		Compte compte2 = new Compte(4,300);
+		System.out.println(compte1==compte2);//return false
+		Compte compte3 = compte2;
+		System.out.println(compte3==compte2);//return true
+		System.out.println(compte3.equals(compte2));//return true
 	}
 }
